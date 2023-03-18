@@ -1,0 +1,140 @@
+body,
+html {
+	width: 100%;
+	font-family: 'IBM Plex Mono', monospace;
+	font-weight: 400;
+	color: #FFFFFF;
+	background-color: #000000;
+	letter-spacing: -0.03em;
+}
+
+.header {
+	background: url("../resources/Main\ image.png") center center / cover no-repeat;
+	height: 765px;
+	padding-top: 27px;
+	margin-bottom: 150px;
+}
+
+.container {
+	max-width: 1150px;
+	margin: 0 auto;
+}
+
+.header__navigation {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 252px;
+
+}
+
+.navigation {
+	display: flex;
+	gap: 50px;
+}
+
+.navigation__link {
+	font-size: 18px;
+	line-height: 23px;
+	color: #FFFFFF;
+}
+
+.header__description {
+	font-size: 20px;
+	line-height: 26px;
+	max-width: 430px;
+	margin-bottom: 29px;
+}
+
+.header__title {
+	max-width: 951px;
+	font-size: 80px;
+	line-height: 70px;
+	color: #1BFF07;
+}
+
+.project-section {
+	margin-bottom: 150px;
+}
+
+.project-section__title {
+	font-size: 55px;
+	line-height: 72px;
+	margin-bottom: 40px;
+}
+
+.project {
+	position: relative;
+}
+
+.project:last-child {
+	margin-bottom: 80px;
+}
+
+.project__image {
+	max-width: 100%;
+}
+
+.project__name {
+	position: absolute;
+	bottom: 50px;
+	left: 50px;
+	font-size: 35px;
+	line-height: 46px;
+}
+
+.project__description {
+	margin-top: 5px;
+	display: block;
+	font-size: 30px;
+	line-height: 39px;
+}
+
+.project-section__button {
+	color: #000000;
+	font-size: 30px;
+	line-height: 39px;
+	padding: 57px 120px;
+	background: #1BFF07;
+	border-radius: 10px;
+}
+
+.skills-section {}
+
+.skills-section__title {
+	font-size: 55px;
+	line-height: 72px;
+	margin-bottom: 104px;
+}
+
+.skills {}
+
+.skill {
+	margin-bottom: 120px;
+}
+
+.skill__name {
+	color: #1BFF07;
+	font-size: 35px;
+	line-height: 46px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.skill__name_narrow {
+	max-width: 660px;
+}
+
+.skill__name::before {
+	content: url("../resources/html\ icon.png");
+	display: block;
+	position: absolute;
+	top: -58px;
+}
+
+.skill__description {
+	font-size: 22px;
+	line-height: 29px;
+	/* !Вопросик */
+	max-width: 858px;
+}
