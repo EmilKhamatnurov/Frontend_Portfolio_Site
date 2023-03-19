@@ -135,6 +135,5 @@ html {
 .skill__description {
 	font-size: 22px;
 	line-height: 29px;
-	/* !Вопросик */
-	max-width: 858px;
+
 }
