@@ -67,6 +67,10 @@ html {
 	position: relative;
 }
 
+.project__wrapper {
+	color: #FFFFFF;
+}
+
 .project:last-child {
 	margin-bottom: 80px;
 }
@@ -99,7 +103,9 @@ html {
 	border-radius: 10px;
 }
 
-.skills-section {}
+.skills-section {
+	margin-bottom: 150px;
+}
 
 .skills-section__title {
 	font-size: 55px;
@@ -107,11 +113,15 @@ html {
 	margin-bottom: 104px;
 }
 
-.skills {}
 
 .skill {
 	margin-bottom: 120px;
 }
+
+.skill:last-child {
+	margin-bottom: 0;
+}
+
 
 .skill__name {
 	color: #1BFF07;
