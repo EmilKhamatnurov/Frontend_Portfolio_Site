@@ -105,7 +105,7 @@ html {
 	color: #000000;
 	font-size: 30px;
 	line-height: 39px;
-	padding: 55px 113px;
+	padding: 56px 118px;
 	background: #1BFF07;
 	border: 1px solid #1BFF07;
 	border-radius: 10px;
@@ -193,6 +193,10 @@ html {
 	margin-bottom: 74px;
 }
 
+.service:nth-child(2) {
+	margin-bottom: 137px;
+}
+
 .service__image {
 	max-width: 100%;
 }
@@ -201,6 +205,10 @@ html {
 	background: #191C19;
 	border-radius: 30px;
 	padding: 40px;
+}
+
+.service__info_wide {
+	padding-bottom: 69px;
 }
 
 .service__name {
