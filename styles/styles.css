@@ -6,6 +6,7 @@ html {
 	color: #FFFFFF;
 	background-color: #000000;
 	letter-spacing: -0.03em;
+	scroll-behavior: smooth;
 }
 
 .header {
@@ -39,6 +40,11 @@ html {
 	color: #FFFFFF;
 }
 
+.navigation__link:hover {
+	color: #1BFF07;
+	transition: 0.5s;
+}
+
 .header__description {
 	font-size: 20px;
 	line-height: 26px;
@@ -65,6 +71,7 @@ html {
 
 .project {
 	position: relative;
+	margin-bottom: 0px;
 }
 
 .project__wrapper {
@@ -98,9 +105,19 @@ html {
 	color: #000000;
 	font-size: 30px;
 	line-height: 39px;
-	padding: 57px 120px;
+	padding: 55px 113px;
 	background: #1BFF07;
+	border: 1px solid #1BFF07;
 	border-radius: 10px;
+}
+
+.project-section__button:hover {
+	background: none;
+	color: #1BFF07;
+}
+
+.project-section__button .skills-section {
+	margin-bottom: 150px;
 }
 
 .skills-section {
@@ -142,9 +159,22 @@ html {
 	top: -58px;
 }
 
+.skill:nth-child(2) .skill__name::before {
+	content: url("../resources/js\ icon.png");
+}
+
+.skill:nth-child(3) .skill__name::before {
+	content: url("../resources/phone\ icon.png");
+}
+
+.skill:nth-child(4) .skill__name::before {
+	content: url("../resources/star\ icon.png");
+}
+
 .skill__description {
 	font-size: 22px;
 	line-height: 29px;
+	max-width: 846px;
 }
 
 .services-section {
@@ -159,14 +189,8 @@ html {
 	margin-bottom: 74px;
 }
 
-.services {}
-
 .service {
 	margin-bottom: 74px;
-}
-
-.service:nth-child(2) {
-	margin-bottom: 137px;
 }
 
 .service__image {
@@ -189,15 +213,15 @@ html {
 .service__description {
 	font-size: 22px;
 	line-height: 29px;
+	max-width: 829px;
 }
 
 .contacts-section {
 	background: url("../resources/contact\ section\ image.png") center center / cover no-repeat;
 	height: 717px;
 	margin-bottom: 150px;
+	padding-top: 320px;
 }
-
-.contacts-section__info {}
 
 .contacts-section__title {
 	font-size: 35px;
@@ -213,4 +237,28 @@ html {
 	font-size: 60px;
 	line-height: 60px;
 	color: #FFFFFF;
+}
+
+.contacts__link:hover {
+	color: #1BFF07;
+}
+
+.footer {
+	background: #FFF;
+	border-radius: 30px 30px 0 0;
+	color: #000000;
+	padding-top: 76px;
+	padding-bottom: 24px;
+}
+
+.footer__title {
+	font-size: 22px;
+	line-height: 30px;
+	margin-bottom: 66px;
+}
+
+.footer__description {
+	font-size: 20px;
+	line-height: 27px;
+	opacity: 0.5;
 }
