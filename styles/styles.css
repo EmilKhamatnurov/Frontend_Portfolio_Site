@@ -130,9 +130,15 @@ html {
 	margin-bottom: 104px;
 }
 
-
+.skills {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 99px 46px;
+}
 .skill {
-	margin-bottom: 120px;
+	width: calc(50% - 23px);
+	/* margin-bottom: 120px; */
 }
 
 .skill:last-child {
@@ -192,7 +198,7 @@ html {
 .service {
 	margin-bottom: 74px;
 }
-
+/* Нужно это заменить или исправить! */
 .service:nth-child(2) {
 	margin-bottom: 137px;
 }
@@ -205,15 +211,18 @@ html {
 	background: #191C19;
 	border-radius: 30px;
 	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+	gap: 70px;
 }
-
+/* Тоже нужно исправить */
 .service__info_wide {
 	padding-bottom: 69px;
 }
 
 .service__name {
 	font-size: 55px;
-	line-height: 72px;
+	line-height: 61px;
 	color: #1BFF07;
 	margin-bottom: 15px;
 }
@@ -221,22 +230,51 @@ html {
 .service__description {
 	font-size: 22px;
 	line-height: 29px;
-	max-width: 829px;
+	max-width: 525px;
 }
 
 .contacts-section {
 	background: url("../resources/contact\ section\ image.png") center center / cover no-repeat;
 	height: 717px;
-	margin-bottom: 150px;
 	padding-top: 320px;
+	position: relative;
+	margin-bottom: 10px;
 }
-
+.contacts-section__info {
+	position: absolute;
+	top: 100px;
+}
 .contacts-section__title {
-	font-size: 35px;
-	line-height: 60px;
-	margin-bottom: 28px;
+	max-width: 553px;
+	font-size: 60px;
+line-height: 60px;
+margin-bottom: 60px;
 }
-
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+.contact-form__input {
+	max-width: 567px;
+	padding: 15px 388px 15px 40px;
+	color: #FFF;
+	font-size: 22px;
+	line-height: 29px;
+	background-color: #3B3D3B;
+border-radius: 1000px;
+	margin-bottom: 26px;
+}
+.contact-form__input:last-child {
+	margin-bottom: 0;
+}
+.contact-form__button {
+	display: inline;
+	padding: 21px 168px;
+	background: #1BFF07;
+	color: #000000;
+border-radius: 10px;
+}
 .contacts__item {
 	margin-bottom: 20px;
 }
