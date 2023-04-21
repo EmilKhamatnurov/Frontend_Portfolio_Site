@@ -127,17 +127,17 @@ html {
 .skills-section__title {
 	font-size: 55px;
 	line-height: 72px;
-	margin-bottom: 104px;
+	margin-bottom: 140px;
 }
 
 .skills {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
-	gap: 99px 46px;
+	gap: 98px 7px;
 }
 .skill {
-	width: calc(50% - 23px);
+	width: calc(50% - 4px);
 	/* margin-bottom: 120px; */
 }
 
@@ -192,7 +192,7 @@ html {
 	line-height: 46px;
 	font-weight: 400;
 	max-width: 419px;
-	margin-bottom: 74px;
+	margin-bottom: 81px;
 }
 
 .service {
@@ -213,7 +213,7 @@ html {
 	padding: 40px;
 	display: flex;
 	justify-content: space-between;
-	gap: 70px;
+	gap: 2px;
 }
 /* Тоже нужно исправить */
 .service__info_wide {
@@ -230,7 +230,7 @@ html {
 .service__description {
 	font-size: 22px;
 	line-height: 29px;
-	max-width: 525px;
+	max-width: 488px;
 }
 
 .contacts-section {
