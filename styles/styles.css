@@ -75,6 +75,7 @@ html {
 
 .project__wrapper {
 	color: #FFFFFF;
+	position: relative;
 }
 
 .project:last-child {
@@ -92,7 +93,18 @@ html {
 	font-size: 35px;
 	line-height: 46px;
 }
-
+.project__label {
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    background: #1BFF07;
+    border-radius: 100px;
+    padding: 10px 10px;
+    display: inline;
+    position: absolute;
+    top: 50px;
+    left: 46px;
+}
 .project__description {
 	margin-top: 5px;
 	display: block;
@@ -152,7 +164,9 @@ html {
 	margin-bottom: 15px;
 	position: relative;
 }
-
+.skill__name_height {
+	margin-bottom: 60px;
+}
 .skill__name_narrow {
 	max-width: 660px;
 }
@@ -195,11 +209,11 @@ html {
 }
 
 .service {
-	margin-bottom: 74px;
+	margin-bottom: 40px;
 }
 /* Нужно это заменить или исправить! */
 .service:nth-child(2) {
-	margin-bottom: 38px;
+	/* margin-bottom: 38px; */
 }
 
 .service__image {
@@ -209,14 +223,14 @@ html {
 .service__info {
 	background: #191C19;
 	border-radius: 30px;
-	padding: 40px;
 	display: flex;
+	padding: 40px 47px 60px 40px;
 	justify-content: space-between;
 	gap: 60px;
 }
 /* Тоже нужно исправить */
 .service__info_wide {
-	padding-bottom: 95px;
+	padding: 40px 47px 44px 40px;
 }
 
 .service__name {
@@ -231,6 +245,7 @@ html {
 	line-height: 29px;
 	max-width: 488px;
 	margin-right: 41px;
+	height: 183px;
 }
 
 .contacts-section {
