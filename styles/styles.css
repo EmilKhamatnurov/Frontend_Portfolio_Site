@@ -200,7 +200,7 @@ html {
 }
 /* Нужно это заменить или исправить! */
 .service:nth-child(2) {
-	margin-bottom: 137px;
+	margin-bottom: 38px;
 }
 
 .service__image {
@@ -213,11 +213,11 @@ html {
 	padding: 40px;
 	display: flex;
 	justify-content: space-between;
-	gap: 2px;
+	gap: 60px;
 }
 /* Тоже нужно исправить */
 .service__info_wide {
-	padding-bottom: 69px;
+	padding-bottom: 95px;
 }
 
 .service__name {
@@ -231,6 +231,7 @@ html {
 	font-size: 22px;
 	line-height: 29px;
 	max-width: 488px;
+	margin-right: 41px;
 }
 
 .contacts-section {
@@ -238,11 +239,11 @@ html {
 	height: 717px;
 	padding-top: 320px;
 	position: relative;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 .contacts-section__info {
 	position: absolute;
-	top: 100px;
+	top: 107px;
 }
 .contacts-section__title {
 	max-width: 553px;
@@ -255,6 +256,7 @@ margin-bottom: 60px;
 	flex-direction: column;
 	align-items: start;
 }
+
 .contact-form__input {
 	max-width: 567px;
 	padding: 15px 388px 15px 40px;
@@ -265,11 +267,16 @@ margin-bottom: 60px;
 border-radius: 1000px;
 	margin-bottom: 26px;
 }
+.contact-form__input_email {
+	margin-bottom: 59px;
+}
 .contact-form__input:last-child {
 	margin-bottom: 0;
 }
 .contact-form__button {
 	display: inline;
+	font-size: 22px;
+line-height: 29px;
 	padding: 21px 168px;
 	background: #1BFF07;
 	color: #000000;
@@ -280,7 +287,7 @@ border-radius: 10px;
 	background: #FFF;
 	border-radius: 30px 30px 0 0;
 	color: #000000;
-	padding-top: 76px;
+	padding-top: 69px;
 	padding-bottom: 24px;
 }
 .footer-inner {
@@ -288,8 +295,8 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 }
-.footer__column {
-
+.footer__column_second {
+	padding: 0px 0px;
 }
 .footer__title {
 	font-size: 22px;
@@ -306,7 +313,8 @@ align-items: center;
 	display: flex;
 	justify-content: center;
 	gap: 24px;
-	margin-bottom: 60px;
+	margin-bottom: 40px;
+	margin-top: 12px;
 }
 .contacts-list__item {
 	margin-bottom: 20px;
