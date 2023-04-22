@@ -1,0 +1,57 @@
+.services-section {
+	margin-bottom: 150px;
+}
+
+.services-section__title {
+	font-size: 35px;
+	line-height: 46px;
+	font-weight: 400;
+	max-width: 419px;
+	margin-bottom: 81px;
+}
+
+.service {
+	margin-bottom: 40px;
+}
+/* Нужно это заменить или исправить! */
+.service:nth-child(2) {
+	/* margin-bottom: 38px; */
+}
+
+.service__image {
+	max-width: 100%;
+}
+
+.service__info {
+	background: #191C19;
+	border-radius: 30px;
+	display: flex;
+	padding: 40px 47px 60px 40px;
+	justify-content: space-between;
+	gap: 60px;
+}
+/* Тоже нужно исправить */
+.service__info_wide {
+	padding: 40px 47px 44px 40px;
+}
+
+.service__name {
+	font-size: 55px;
+	line-height: 61px;
+	color: #1BFF07;
+	margin-bottom: 15px;
+}
+
+.service__description {
+	font-size: 22px;
+	line-height: 29px;
+	max-width: 488px;
+	margin-right: 41px;
+	height: 183px;
+}
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 767px) {
+	
+}

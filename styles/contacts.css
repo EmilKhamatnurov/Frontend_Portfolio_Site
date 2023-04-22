@@ -1,0 +1,54 @@
+.contacts-section {
+	background: url("../resources/contact\ section\ image.png") center center / cover no-repeat;
+	height: 717px;
+	padding-top: 320px;
+	position: relative;
+	margin-bottom: 15px;
+}
+.contacts-section__info {
+	position: absolute;
+	top: 107px;
+}
+.contacts-section__title {
+	max-width: 553px;
+	font-size: 60px;
+	line-height: 60px;
+	margin-bottom: 60px;
+}
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+}
+
+.contact-form__input {
+	max-width: 567px;
+	padding: 15px 388px 15px 40px;
+	color: #FFF;
+	font-size: 22px;
+	line-height: 29px;
+	background-color: #3B3D3B;
+border-radius: 1000px;
+	margin-bottom: 26px;
+}
+.contact-form__input_email {
+	margin-bottom: 59px;
+}
+.contact-form__input:last-child {
+	margin-bottom: 0;
+}
+.contact-form__button {
+	display: inline;
+	font-size: 22px;
+line-height: 29px;
+	padding: 21px 168px;
+	background: #1BFF07;
+	color: #000000;
+border-radius: 10px;
+}
+@media (max-width: 1199px) {
+
+}
+@media (max-width: 767px) {
+	
+}
