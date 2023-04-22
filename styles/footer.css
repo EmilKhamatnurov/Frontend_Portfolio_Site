@@ -6,9 +6,9 @@
 	padding-bottom: 24px;
 }
 .footer-inner {
-display: flex;
-justify-content: space-between;
-align-items: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 .footer__column_second {
 	padding: 0px 0px;

@@ -41,6 +41,9 @@
 	color: #1BFF07;
 }
 @media (max-width: 1199px) {
+	.header__navigation {
+		margin-bottom: 290px;
+	}
 	.navigation {
 		display: none;
 	}
@@ -57,6 +60,13 @@
 	}
 }
 @media (max-width: 767px) {
+	.header__navigation {
+		margin-bottom: 260px;
+	}
+	.header {
+		height: 716px;
+		margin-bottom: 100px;
+	}
 	.navigation {
 		display: none;
 	}
