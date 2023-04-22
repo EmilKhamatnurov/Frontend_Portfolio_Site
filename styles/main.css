@@ -21,11 +21,20 @@ html {
 section {
 	margin-bottom: 150px;
 }
+/* Добавить в заголовки секций */
+.section-title {
+	font-size: 55px;
+	line-height: 72px;
+}
 @media (max-width: 1199px) {
 	.container {
 		width: 100%;
 		padding: 0 15px;
 		margin: 0 auto;
+	}
+	.section-title {
+		font-size: 45px;
+		line-height: 58px;
 	}
 }
 @media (max-width: 767px) {
@@ -36,5 +45,9 @@ section {
 	}
 	section {
 		margin-bottom: 100px;
+	}
+	.section-title {
+		font-size: 30px;
+		line-height: 39px;
 	}
 }
