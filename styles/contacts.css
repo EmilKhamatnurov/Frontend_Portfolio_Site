@@ -91,14 +91,15 @@
 		margin-bottom: 0px;
 	}
 	.contacts-section__title {
-		max-width: 310px;
+		max-width: 100%;
 		font-size: 35px;
 		line-height: 37px;
 	}
 	.contact-form__input {
+		/* Тупой метод переопределения ширины. По-другому не получается( */
+		max-width: 100%;
 		width: 100%;
 		padding: 10px 0 10px 21px;
-		
 		font-size: 15px;
 		line-height: 20px;
 		margin-bottom: 23px;
