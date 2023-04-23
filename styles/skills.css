@@ -63,8 +63,6 @@
 }
 @media (max-width: 1199px) {
 	.skills-section__title {
-		font-size: 45px;
-		line-height: 58px;
 		margin-bottom: 106px;
 	}
 	.skills {
