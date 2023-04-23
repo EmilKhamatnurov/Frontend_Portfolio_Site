@@ -1,4 +1,6 @@
-/* .project-section {
+/*
+Свойство отступов между секциями перенесено в файл main.css. Селектор section 
+.project-section {
 	margin-bottom: 150px;
 } */
 
@@ -7,7 +9,6 @@
 	line-height: 72px;
 	margin-bottom: 40px;
 }
-
 .project {
 	position: relative;
 	margin-bottom: 0px;

@@ -60,11 +60,37 @@
 .skill__description {
 	font-size: 22px;
 	line-height: 29px;
-	max-width: 835px;
 }
 @media (max-width: 1199px) {
-
+	.skills-section__title {
+		font-size: 45px;
+		line-height: 58px;
+		margin-bottom: 106px;
+	}
+	.skills {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		gap: 98px 7px;
+	}
+	.skill {
+		width: calc(50% - 4px);
+	}
+	.skill__name {
+		font-size: 28px;
+		line-height: 36px;
+		margin-bottom: 13px;
+	}
+	.skill__description {
+		font-size: 18px;
+		line-height: 23px;
+	}
 }
 @media (max-width: 767px) {
-	
+	.skill {
+		width: 100%;
+	}
+	.skill__name {
+		margin-bottom: 15px;
+	}
 }
