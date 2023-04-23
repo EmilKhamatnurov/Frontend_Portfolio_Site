@@ -1,6 +1,6 @@
-/* .skills-section {
-	margin-bottom: 150px;
-} */
+.skills-section {
+	margin-bottom: 141px;
+}
 
 .skills-section__title {
 	font-size: 55px;
@@ -62,8 +62,8 @@
 	line-height: 29px;
 }
 @media (max-width: 1199px) {
-	.skills-section__title {
-		margin-bottom: 106px;
+	.section-title.skills-section__title {
+		margin-bottom: 126px;
 	}
 	.skills {
 		display: flex;
@@ -73,6 +73,10 @@
 	}
 	.skill {
 		width: calc(50% - 4px);
+	}
+	.skill__name::before {
+		width: 48px;
+		height: 48px;
 	}
 	.skill__name {
 		font-size: 28px;
@@ -85,6 +89,15 @@
 	}
 }
 @media (max-width: 767px) {
+	.skills-section {
+		margin-bottom: 100px;
+	}
+	.skills-section__title {
+		margin-bottom: 140px;
+	}
+	.skills {
+		gap: 107px 7px;
+	}
 	.skill {
 		width: 100%;
 	}

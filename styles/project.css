@@ -31,7 +31,7 @@
 	background: url("../resources/TOPTRIP\ project\ image.png") center center / cover no-repeat;
 }
 .project:last-child {
-	margin-bottom: 80px;
+	margin-bottom: 69px;
 }
 
 .project__image {
@@ -83,6 +83,10 @@
 	margin-bottom: 150px;
 }
 @media (max-width: 1199px) {
+	.project-section__title {
+		margin-bottom: 55px;
+	}
+
 	.project__wrapper {
 		height: 445px;
 	}
@@ -105,7 +109,7 @@
 		line-height: 31px;
 	}
 	.project:last-child {
-		margin-bottom: 64px;
+		margin-bottom: 51px;
 	}
 	.project-section__button {
 		font-size: 24px;
@@ -114,6 +118,10 @@
 	}
 }
 @media (max-width: 767px) {
+	.project-section__title {
+		max-width: 268px;
+		margin-bottom: 38px;
+	}
 	.project__wrapper {
 		background-position: 0 0;
 	}
@@ -124,15 +132,15 @@
 		background-position: center 0;
 	}
 	.project__name {
-		bottom: 50px;
-		left: 35px;	
+		bottom: 57px;
+		left: 21px;	
 	}
 	.project__label {
 		font-size: 13px;
 		line-height: 18px;	
-		padding: 6px 19.5px;
-		top: 30px;
-		left: 33px;
+		padding: 6px 5px;
+		top: 23px;
+		left: 30px;
 	}
 	.project__description {
 		margin-top: 5px;
@@ -140,7 +148,7 @@
 		line-height: 21px;
 	}
 	.project:last-child {
-		margin-bottom: 60px;
+		margin-bottom: 54px;
 	}
 	.project-section__button {
 		font-size: 18px;

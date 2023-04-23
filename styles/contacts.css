@@ -33,7 +33,7 @@
 	margin-bottom: 26px;
 }
 .contact-form__input_email {
-	margin-bottom: 60 px;
+	margin-bottom: 60px;
 }
 /* .contact-form__input:last-child {
 	margin-bottom: 0;
@@ -57,6 +57,9 @@
 		height: 484px;
 		margin-bottom: 7px;
 		padding-top: 50px;
+	}
+	.container.flex-container {
+		padding-left: 50px;
 	}
 	.contacts-section__title {
 		max-width: 373px;
@@ -85,7 +88,7 @@
 	
 	}
 }
-@media (max-width: 767px) {
+@media (max-width: 840px) {
 	.contacts-section {
 		height: 424px;
 		margin-bottom: 0px;
