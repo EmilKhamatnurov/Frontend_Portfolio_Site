@@ -64,6 +64,7 @@
 		margin-bottom: 260px;
 	}
 	.header {
+		background-image: url("../resources/Mobile\ Main\ image.png");
 		height: 716px;
 		margin-bottom: 100px;
 	}
@@ -80,6 +81,6 @@
 	.header__title {
 		max-width: 951px;
 		font-size: 40px;
-line-height: 47px;
+	line-height: 47px;
 	}
 }

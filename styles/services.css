@@ -2,12 +2,12 @@
 	margin-bottom: 150px;
 } */
 
-.services-section__title {
+.section-title.services-section__title {
 	font-size: 35px;
 	line-height: 46px;
 	font-weight: 400;
 	max-width: 419px;
-	margin-bottom: 81px;
+	margin-bottom: 80px;
 }
 
 .service {
@@ -89,20 +89,20 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		padding: 30px 22px 60px 22px;
+		padding: 30px 22px 0 22px;
 		width: 100%;
 		/* justify-content: space-between; */
-		/* gap: 60px; */
+		gap: 15px;
 	}
 	.service__name {
 		font-size: 35px;
 		line-height: 110%;
 		width: 100%;
-		margin-bottom: 15px;
+		margin-bottom: 0px;
 	}
 	
 	.service__description {
 		width: 100%;
-
+		margin-bottom: 90px;
 	}
 }
