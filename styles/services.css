@@ -81,6 +81,10 @@
 	}
 }
 @media (max-width: 767px) {
+	.service__image {
+		height: 225px;
+
+	}
 	.service__info {
 		display: flex;
 		flex-direction: column;
