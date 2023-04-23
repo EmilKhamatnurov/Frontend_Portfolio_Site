@@ -74,6 +74,10 @@
 	/* .project {
 		max-height: 445px;
 	} */
+	/* .project__image {
+		object-fit: cover;
+	} */
+	
 	.project__name {
 		bottom: 40px;
 		left: 40px;
@@ -92,6 +96,14 @@
 		font-size: 24px;
 		line-height: 31px;
 	}
+	.project:last-child {
+		margin-bottom: 64px;
+	}
+	.project-section__button {
+		font-size: 24px;
+		line-height: 32px;
+		padding: 46px 90px;
+	}
 }
 @media (max-width: 767px) {
 	.project__name {
@@ -109,5 +121,13 @@
 		margin-top: 5px;
 		font-size: 16px;
 		line-height: 21px;
+	}
+	.project:last-child {
+		margin-bottom: 60px;
+	}
+	.project-section__button {
+		font-size: 18px;
+		line-height: 23px;
+		padding: 28px 71 px;
 	}
 }
