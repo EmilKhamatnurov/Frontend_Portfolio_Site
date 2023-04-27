@@ -1,3 +1,7 @@
+.body_fixed {
+	overflow: hidden;
+}
+
 .burger-btn {
 	display: none;
 }
@@ -16,18 +20,21 @@
 	/* background-color: rgb(0, 0, 0, 0.9); */
 }
 
+
+/* transform: rotate(45deg);
+transform: rotate(-45deg); */
 .burger_open {
 	opacity: 1;
 	visibility: visible;
 }
 
 .burger__content {
-	width: 50%;
+	width: 36%;
 	height: 100%;
 	overflow-y: auto;
-	transition: 0.3s linear;
-	transform: translateX(100%);
-	background-color: rgba(255, 255, 255, 1);
+	/* transition: 0.3s linear;
+	transform: translateX(100%); */
+	background-color: rgb(0, 0, 0);
 }
 
 @media (max-width: 1199px) {
@@ -35,16 +42,22 @@
 		display: none;
 	}
 
+	.header__logo_menu {
+		margin-bottom: 30px;
+		border: 1px solid #1BFF07;
+		border-radius: 30px;
+	}
+
 	.burger-btn {
-		/* width: 50px;
-		height: 3px; */
+		width: 36px;
+		height: 24px;
 		cursor: pointer;
 		display: block;
 		background-color: none;
 		border: none;
 		position: absolute;
-		right: 15px;
-		top: 30px;
+		right: 29px;
+		top: 38px;
 		z-index: 110;
 
 	}
@@ -62,7 +75,7 @@
 		display: block;
 		content: "";
 		position: absolute;
-		top: -15px;
+		top: -5px;
 		background-color: #1BFF07;
 		border-radius: 30px;
 	}
@@ -73,7 +86,7 @@
 		display: block;
 		content: "";
 		position: absolute;
-		bottom: -15px;
+		bottom: -5px;
 		background-color: #1BFF07;
 		border-radius: 30px;
 	}
@@ -82,8 +95,8 @@
 	.burger-btn_open {
 		/* background-color: rgb(112, 16, 106); */
 		position: fixed;
-		right: 15px;
-		top: 30px;
+		right: 29px;
+		top: 38px;
 	}
 
 	.burger {
@@ -97,7 +110,7 @@
 		opacity: 0;
 		visibility: hidden;
 		z-index: 100;
-		background-color: rgb(0, 0, 0, 0.9);
+		/* background-color: rgb(0, 0, 0, 0.9); */
 		transition: opacity 0.3s ease;
 	}
 
@@ -107,7 +120,7 @@
 	}
 
 	.burger__content {
-		/* padding: 80px 88px 0 30px; */
+		padding: 100px 0px 0 28px;
 	}
 
 	.burger__navigation {
@@ -119,10 +132,11 @@
 
 	.burger__link {
 		width: fit-content;
+		color: #ffffff;
 		font-size: 25px;
-		line-height: 34px;
-		color: #000000;
-		border-bottom: 1px solid #FFFFFF;
+		line-height: 32px;
+		text-transform: uppercase;
+		/* border-bottom: 1px solid #FFFFFF; */
 	}
 
 	.burger__link:hover {
@@ -131,6 +145,30 @@
 		opacity: 0.5;
 		border-bottom: 1px solid;
 	}
+
+	.contacts-list_burger {
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+	}
+
+	.burger-contacts__title {
+		opacity: 0.5;
+		margin-bottom: 15px;
+	}
+
+	.contacts-list .contacts-list__link_burger {
+		color: #ffffff;
+	}
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+	.burger__content {
+		width: 70%;
+		height: 100%;
+		overflow-y: auto;
+		/* transition: 0.3s linear;
+		transform: translateX(100%); */
+		background-color: rgb(0, 0, 0);
+	}
+}

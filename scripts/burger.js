@@ -14,9 +14,9 @@ const burgerContentNode = document.querySelector('.js-burger__content')
 // const burgerBtnFirstLine = document.querySelector('.burger-btn__first-line');
 // const burgerBtnSecondLine = document.querySelector('.burger-btn__second-line');
 
-//для отключения меню при нажатии на элемент меню
-// const burgerLinks = document.querySelectorAll(".burger__link");
-// burgerLinks.forEach(Element => Element.addEventListener("click",toggleBurger));
+// для отключения меню при нажатии на элемент меню
+const burgerLinks = document.querySelectorAll(".burger__link");
+burgerLinks.forEach(Element => Element.addEventListener("click",toggleBurger));
 
 burgerBtnNode.addEventListener('click', toggleBurger);
 burgerNode.addEventListener('click', (event) => {
