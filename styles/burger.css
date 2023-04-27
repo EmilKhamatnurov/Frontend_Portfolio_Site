@@ -149,7 +149,6 @@
 		line-height: 32px;
 		text-transform: uppercase;
 		border-bottom: 1px solid #000000;
-		/* border-bottom: 1px solid #FFFFFF; */
 	}
 
 	.burger__link:hover {
