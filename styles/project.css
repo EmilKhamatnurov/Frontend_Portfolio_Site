@@ -9,6 +9,7 @@
 	line-height: 72px;
 	margin-bottom: 40px;
 }
+
 .project {
 	position: relative;
 	margin-bottom: 0px;
@@ -21,15 +22,19 @@
 	height: 550px;
 	border-radius: 24px;
 }
+
 .project__wrapper_first {
 	background: url("../resources/Metrica\ project\ image.png") center center / cover no-repeat;
 }
+
 .project__wrapper_second {
 	background: url("../resources/Nothing\ project\ image.png") center center / cover no-repeat;
 }
+
 .project__wrapper_third {
 	background: url("../resources/TOPTRIP\ project\ image.png") center center / cover no-repeat;
 }
+
 .project:last-child {
 	margin-bottom: 69px;
 }
@@ -45,18 +50,20 @@
 	font-size: 35px;
 	line-height: 46px;
 }
+
 .project__label {
-    font-size: 20px;
-    line-height: 27px;
-    color: #000000;
-    background: #1BFF07;
-    border-radius: 100px;
-    padding: 10px 10px;
-    display: inline;
-    position: absolute;
-    top: 50px;
-    left: 46px;
+	font-size: 20px;
+	line-height: 27px;
+	color: #000000;
+	background: #B007FF;
+	border-radius: 100px;
+	padding: 10px 10px;
+	display: inline;
+	position: absolute;
+	top: 50px;
+	left: 46px;
 }
+
 .project__description {
 	margin-top: 5px;
 	display: block;
@@ -69,19 +76,20 @@
 	font-size: 30px;
 	line-height: 39px;
 	padding: 56px 118px;
-	background: #1BFF07;
-	border: 1px solid #1BFF07;
+	background: #B007FF;
+	border: 1px solid #B007FF;
 	border-radius: 10px;
 }
 
 .project-section__button:hover {
 	background: none;
-	color: #1BFF07;
+	color: #B007FF;
 }
 
 .project-section__button .skills-section {
 	margin-bottom: 150px;
 }
+
 @media (max-width: 1199px) {
 	.project-section__title {
 		margin-bottom: 55px;
@@ -90,12 +98,14 @@
 	.project__wrapper {
 		height: 445px;
 	}
+
 	.project__name {
 		bottom: 40px;
 		left: 40px;
 		font-size: 28px;
 		line-height: 36px;
 	}
+
 	.project__label {
 		font-size: 16px;
 		line-height: 22px;
@@ -103,53 +113,65 @@
 		top: 40px;
 		left: 35px;
 	}
+
 	.project__description {
 		margin-top: 5px;
 		font-size: 24px;
 		line-height: 31px;
 	}
+
 	.project:last-child {
 		margin-bottom: 51px;
 	}
+
 	.project-section__button {
 		font-size: 24px;
 		line-height: 32px;
 		padding: 46px 90px;
 	}
 }
+
 @media (max-width: 767px) {
 	.project-section__title {
 		max-width: 268px;
 		margin-bottom: 38px;
 	}
+
 	.project__wrapper {
 		background-position: 0 0;
 	}
+
 	.project__wrapper_second {
 		background-position: center 0;
 	}
+
 	.project__wrapper_third {
 		background-position: center 0;
 	}
+
 	.project__name {
 		bottom: 57px;
-		left: 21px;	
+		left: 21px;
 	}
+
 	.project__label {
 		font-size: 13px;
-		line-height: 18px;	
+		line-height: 18px;
 		padding: 6px 5px;
 		top: 23px;
 		left: 30px;
 	}
+
 	.project__description {
 		margin-top: 5px;
 		font-size: 16px;
 		line-height: 21px;
 	}
+
 	.project:last-child {
 		margin-bottom: 54px;
 	}
+
 	.project-section__button {
 		font-size: 18px;
 		line-height: 23px;
