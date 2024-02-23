@@ -16,7 +16,7 @@
 }
 
 .project__wrapper {
-	color: #FFFFFF;
+	color: #ffffff;
 	position: relative;
 	width: 100%;
 	height: 550px;
@@ -24,17 +24,27 @@
 }
 
 .project__wrapper_first {
-	background: url("../resources/Metrica\ project\ image.png") center center / cover no-repeat;
+	background: url('../resources/Metrica\ project\ image.png') center center /
+		cover no-repeat;
 }
 
 .project__wrapper_second {
-	background: url("../resources/Nothing\ project\ image.png") center center / cover no-repeat;
+	background: url('../resources/Nothing\ project\ image.png') center center /
+		cover no-repeat;
 }
 
 .project__wrapper_third {
-	background: url("../resources/TOPTRIP\ project\ image.png") center center / cover no-repeat;
+	background: url('../resources/Personal training.png') center center / cover
+		no-repeat;
 }
-
+.project__wrapper_third {
+	background: url('../resources/Personal training.jpg') center center / cover
+		no-repeat;
+}
+.project__wrapper_third .project__name {
+	color: #b007ff;
+	background-color: #00000059;
+}
 .project:last-child {
 	margin-bottom: 69px;
 }
@@ -55,7 +65,7 @@
 	font-size: 20px;
 	line-height: 27px;
 	color: #000000;
-	background: #B007FF;
+	background: #b007ff;
 	border-radius: 100px;
 	padding: 10px 10px;
 	display: inline;
@@ -76,14 +86,14 @@
 	font-size: 30px;
 	line-height: 39px;
 	padding: 56px 118px;
-	background: #B007FF;
-	border: 1px solid #B007FF;
+	background: #b007ff;
+	border: 1px solid #b007ff;
 	border-radius: 10px;
 }
 
 .project-section__button:hover {
 	background: none;
-	color: #B007FF;
+	color: #b007ff;
 }
 
 .project-section__button .skills-section {
