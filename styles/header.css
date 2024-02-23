@@ -1,5 +1,7 @@
 .header {
-	background: url("../resources/Main\ image.jpg") center center / cover no-repeat;
+	background: url('../resources/Main\ image.jpg') center center / cover
+		no-repeat;
+	background-position-y: 20%;
 	height: 765px;
 	padding-top: 27px;
 	margin-bottom: 150px;
@@ -20,12 +22,12 @@
 .navigation__link {
 	font-size: 18px;
 	line-height: 23px;
-	color: #FFFFFF;
+	color: #ffffff;
 	margin-bottom: 19px;
 }
 
 .navigation__link:hover {
-	color: #B007FF;
+	color: #b007ff;
 	transition: 0.5s;
 }
 
@@ -41,7 +43,7 @@
 	max-width: 951px;
 	font-size: 80px;
 	line-height: 70px;
-	color: #B007FF;
+	color: #b007ff;
 }
 
 @media (max-width: 1199px) {
@@ -72,7 +74,8 @@
 	}
 
 	.header {
-		background-image: url("../resources/Mobile\ Main\ image.jpg");
+		background-image: url('../resources/Mobile\ Main\ image.jpg');
+		background-position-y: inherit;
 		height: 716px;
 		margin-bottom: 100px;
 	}
